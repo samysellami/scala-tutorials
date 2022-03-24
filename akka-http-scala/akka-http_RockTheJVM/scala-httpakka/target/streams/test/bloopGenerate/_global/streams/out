@@ -1,0 +1,4 @@
+[debug] [scala-httpakka-test] Classpath dependencies List()
+[debug] [scala-httpakka-test] Dependencies from configurations List(scala-httpakka)
+[debug] Bloop wrote the configuration of project 'scala-httpakka-test' to '/home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/.bloop/scala-httpakka-test.json'
+[success] Generated .bloop/scala-httpakka-test.json

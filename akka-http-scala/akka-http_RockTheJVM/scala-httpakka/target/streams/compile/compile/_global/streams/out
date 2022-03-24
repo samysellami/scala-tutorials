@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:41: could not find implicit value for parameter fm: akka.stream.Materializer[0m
+[0m[[0m[31merror[0m] [0m[0m                response.entity.toStrict(2.seconds)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

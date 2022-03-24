@@ -1,0 +1,1397 @@
+2022.03.14 12:37:42 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/.metals/lsp.trace.json or /home/sami/.cache/metals/lsp.trace.json
+2022.03.14 12:37:42 INFO  logging to file /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/.metals/metals.log
+2022.03.14 12:37:42 INFO  Started: Metals version 0.11.2 in workspace '/home/sami/Documents/dev/scala-HttpAkka/scala-httpakka' for client Visual Studio Code 1.65.2.
+2022.03.14 12:37:42 INFO  Parse release: 11.0.14
+2022.03.14 12:37:43 INFO  time: initialize in 1.59s
+2022.03.14 12:37:44 WARN  Build server is not auto-connectable.
+2022.03.14 12:37:45 WARN  no build target for: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/build.sbt
+2022.03.14 12:37:47 INFO  no build target found for /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/build.sbt. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.14 12:37:52 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals6939555770010737121/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.03.14 12:37:52 WARN  no build target for: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/project/metals.sbt
+2022.03.14 12:37:52 WARN  no build target for: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/project/project/metals.sbt
+2022.03.14 12:37:52 INFO  skipping build import with status 'Started'
+2022.03.14 12:37:53 INFO  [info] welcome to sbt 1.6.2 (Ubuntu Java 11.0.14)
+2022.03.14 12:37:54 INFO  [info] loading settings for project scala-httpakka-build-build from metals.sbt ...
+2022.03.14 12:37:54 INFO  [info] loading project definition from /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/project/project
+2022.03.14 12:37:56 INFO  [info] loading settings for project scala-httpakka-build from metals.sbt ...
+2022.03.14 12:37:56 INFO  [info] loading project definition from /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/project
+2022.03.14 12:37:58 INFO  [success] Generated .bloop/scala-httpakka-build.json
+2022.03.14 12:37:58 INFO  [success] Total time: 1 s, completed Mar 14, 2022, 12:37:58 PM
+2022.03.14 12:37:59 INFO  [info] loading settings for project scala-httpakka from build.sbt ...
+2022.03.14 12:37:59 INFO  [info] set current project to hello-world (in build file:/home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/)
+2022.03.14 12:38:00 INFO  [success] Generated .bloop/scala-httpakka-test.json
+2022.03.14 12:38:00 INFO  [success] Generated .bloop/scala-httpakka.json
+2022.03.14 12:38:00 INFO  [success] Total time: 1 s, completed Mar 14, 2022, 12:38:00 PM
+2022.03.14 12:38:01 INFO  time: ran 'sbt bloopInstall' in 8.96s
+2022.03.14 12:38:01 INFO  Attempting to connect to the build server...
+2022.03.14 12:38:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.14 12:38:03 INFO  Attempting to connect to the build server...
+2022.03.14 12:38:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/project/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.14 12:38:03 INFO  time: Connected to build server in 2.73s
+2022.03.14 12:38:03 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.14 12:38:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.03.14 12:38:08 INFO  time: indexed workspace in 4.45s
+2022.03.14 12:38:12 INFO  time: code lens generation in 1.96s
+2022.03.14 12:39:45 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 12:39:53 INFO  time: compiled scala-httpakka in 7.56s
+2022.03.14 12:40:09 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 12:40:09 INFO  time: compiled scala-httpakka in 0.47s
+2022.03.14 12:42:10 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 12:42:10 INFO  time: compiled scala-httpakka in 0.59s
+something's wrong: no file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala in Array[<error>]RangePosition(file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala, 39, 39, 54)
+something's wrong: no file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala in Array[<error>]RangePosition(file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala, 39, 39, 47)
+something's wrong: no file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala in Array[<error>]RangePosition(file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala, 39, 39, 54)
+something's wrong: no file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala in Array[<error>]RangePosition(file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala, 39, 39, 47)
+something's wrong: no file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala in Array[<error>]RangePosition(file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala, 39, 39, 48)
+something's wrong: no file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala in Array[<error>]RangePosition(file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala, 39, 39, 51)
+something's wrong: no file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala in Array[String]RangePosition(file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala, 39, 39, 52)
+something's wrong: no file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala in Array[String]RangePosition(file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala, 39, 39, 52)
+something's wrong: no file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala in Array[String]RangePosition(file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala, 39, 39, 52)
+2022.03.14 12:42:46 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 12:42:46 INFO  time: compiled scala-httpakka in 0.58s
+2022.03.14 12:43:38 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 12:43:38 INFO  time: compiled scala-httpakka in 0.6s
+2022.03.14 12:44:20 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 12:44:20 INFO  time: compiled scala-httpakka in 0.48s
+2022.03.14 12:44:51 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2137397895378375330/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.03.14 12:44:52 INFO  [info] welcome to sbt 1.6.2 (Ubuntu Java 11.0.14)
+2022.03.14 12:44:52 INFO  [info] loading settings for project scala-httpakka-build-build from metals.sbt ...
+2022.03.14 12:44:53 INFO  [info] loading project definition from /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/project/project
+2022.03.14 12:44:53 INFO  [info] loading settings for project scala-httpakka-build from metals.sbt ...
+2022.03.14 12:44:53 INFO  [info] loading project definition from /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/project
+2022.03.14 12:44:55 INFO  [success] Generated .bloop/scala-httpakka-build.json
+2022.03.14 12:44:55 INFO  [success] Total time: 1 s, completed Mar 14, 2022, 12:44:56 PM
+2022.03.14 12:44:58 INFO  [info] loading settings for project scala-httpakka from build.sbt ...
+2022.03.14 12:44:58 INFO  [info] set current project to hello-world (in build file:/home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/)
+2022.03.14 12:45:02 INFO  [success] Generated .bloop/scala-httpakka-test.json
+2022.03.14 12:45:02 INFO  [success] Generated .bloop/scala-httpakka.json
+2022.03.14 12:45:02 INFO  [success] Total time: 4 s, completed Mar 14, 2022, 12:45:02 PM
+2022.03.14 12:45:02 INFO  time: ran 'sbt bloopInstall' in 11s
+2022.03.14 12:45:02 INFO  Disconnecting from Bloop session...
+2022.03.14 12:45:02 INFO  Shut down connection with build server.
+2022.03.14 12:45:02 INFO  Shut down connection with build server.
+2022.03.14 12:45:02 INFO  Attempting to connect to the build server...
+2022.03.14 12:45:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.14 12:45:02 INFO  Attempting to connect to the build server...
+2022.03.14 12:45:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/project/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.14 12:45:02 INFO  time: Connected to build server in 0.14s
+2022.03.14 12:45:02 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.14 12:45:03 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.03.14 12:45:03 INFO  time: indexed workspace in 1.31s
+2022.03.14 12:45:04 INFO  compiling scala-httpakka (2 scala sources)
+2022.03.14 12:45:04 INFO  time: compiled scala-httpakka in 0.96s
+Mar 14, 2022 12:45:24 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Mar 14, 2022 12:45:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:495)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:494)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1985)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1980)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2040)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1940)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5952)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:459)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1349)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1342)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1212)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:417)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+2022.03.14 12:45:37 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 12:45:37 INFO  time: compiled scala-httpakka in 0.69s
+2022.03.14 12:46:21 INFO  skipping build import with status 'Installed'
+2022.03.14 12:46:36 INFO  skipping build import with status 'Installed'
+2022.03.14 12:46:37 INFO  skipping build import with status 'Installed'
+2022.03.14 12:46:37 INFO  skipping build import with status 'Installed'
+2022.03.14 12:46:36 INFO  skipping build import with status 'Installed'
+2022.03.14 12:47:11 INFO  skipping build import with status 'Installed'
+2022.03.14 12:47:23 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7673533860081853005/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.03.14 12:47:24 INFO  [info] welcome to sbt 1.6.2 (Ubuntu Java 11.0.14)
+2022.03.14 12:47:24 INFO  [info] loading settings for project scala-httpakka-build-build from metals.sbt ...
+2022.03.14 12:47:25 INFO  [info] loading project definition from /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/project/project
+2022.03.14 12:47:25 INFO  [info] loading settings for project scala-httpakka-build from metals.sbt ...
+2022.03.14 12:47:25 INFO  [info] loading project definition from /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/project
+2022.03.14 12:47:28 INFO  [success] Generated .bloop/scala-httpakka-build.json
+2022.03.14 12:47:28 INFO  [success] Total time: 2 s, completed Mar 14, 2022, 12:47:28 PM
+2022.03.14 12:47:28 INFO  [info] loading settings for project scala-httpakka from build.sbt ...
+2022.03.14 12:47:28 INFO  [info] set current project to hello-world (in build file:/home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/)
+2022.03.14 12:47:29 INFO  [success] Generated .bloop/scala-httpakka.json
+2022.03.14 12:47:29 INFO  [success] Generated .bloop/scala-httpakka-test.json
+2022.03.14 12:47:29 INFO  [success] Total time: 0 s, completed Mar 14, 2022, 12:47:29 PM
+2022.03.14 12:47:29 INFO  time: ran 'sbt bloopInstall' in 5.9s
+2022.03.14 12:47:29 INFO  Disconnecting from Bloop session...
+2022.03.14 12:47:29 INFO  Shut down connection with build server.
+2022.03.14 12:47:29 INFO  Shut down connection with build server.
+2022.03.14 12:47:29 INFO  Attempting to connect to the build server...
+2022.03.14 12:47:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.14 12:47:29 INFO  Attempting to connect to the build server...
+2022.03.14 12:47:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/project/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.14 12:47:29 INFO  time: Connected to build server in 0.13s
+2022.03.14 12:47:29 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.14 12:47:30 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.03.14 12:47:30 INFO  time: indexed workspace in 1.19s
+2022.03.14 12:53:36 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 12:53:36 INFO  time: compiled scala-httpakka in 0.36s
+2022.03.14 12:53:45 INFO  compiling scala-httpakka (2 scala sources)
+2022.03.14 12:53:45 INFO  time: compiled scala-httpakka in 0.4s
+2022.03.14 12:54:33 ERROR searching for `_empty_/AkkaHttp.main().` failed
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:71)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:237)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:103)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:192)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 12:54:33 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 12:54:33 INFO  time: compiled scala-httpakka in 0.62s
+2022.03.14 12:58:39 ERROR searching for `_empty_/AkkaHttp.main().` failed
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:71)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:237)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:103)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:20)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:20)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:192)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+Mar 14, 2022 12:58:50 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Mar 14, 2022 12:58:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:495)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:494)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1985)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1980)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2040)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1940)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5952)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:459)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1349)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1342)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1212)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:417)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+Mar 14, 2022 12:59:09 PM scala.meta.internal.metals.Docstrings indexSymbol
+SEVERE: file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.metals.Docstrings.indexSymbolDefinition(Docstrings.scala:90)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:74)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:16)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:172)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:171)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:256)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:255)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:254)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completionItemResolve$1(MetalsLanguageServer.scala:1596)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completionItemResolve(MetalsLanguageServer.scala:1594)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 12:59:33 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 12:59:33 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala
+2022.03.14 12:59:33 INFO  time: compiled scala-httpakka in 0.67s
+2022.03.14 13:00:15 ERROR searching for `_empty_/AkkaHttp.system.` failed
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:71)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:16)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:172)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:171)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:256)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:255)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:254)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completionItemResolve$1(MetalsLanguageServer.scala:1596)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completionItemResolve(MetalsLanguageServer.scala:1594)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 13:00:21 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 13:00:21 INFO  time: compiled scala-httpakka in 0.64s
+2022.03.14 13:02:49 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 13:02:49 INFO  time: compiled scala-httpakka in 0.55s
+2022.03.14 13:02:56 ERROR searching for `_empty_/AkkaHttp.source.` failed
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:71)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:16)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:172)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:171)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:256)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:255)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:254)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completionItemResolve$1(MetalsLanguageServer.scala:1596)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completionItemResolve(MetalsLanguageServer.scala:1594)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 13:03:04 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 13:03:04 INFO  time: compiled scala-httpakka in 0.63s
+Mar 14, 2022 1:03:43 PM scala.meta.internal.metals.Docstrings indexSymbol
+SEVERE: file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.metals.Docstrings.indexSymbolDefinition(Docstrings.scala:90)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:74)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:16)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:172)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:171)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:256)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:255)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:254)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completionItemResolve$1(MetalsLanguageServer.scala:1596)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completionItemResolve(MetalsLanguageServer.scala:1594)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 13:04:43 ERROR searching for `_empty_/AkkaHttp.materializer.` failed
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:71)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:16)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:172)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:171)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:256)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:255)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:254)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completionItemResolve$1(MetalsLanguageServer.scala:1596)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completionItemResolve(MetalsLanguageServer.scala:1594)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 13:05:50 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 13:05:50 INFO  time: compiled scala-httpakka in 0.17s
+2022.03.14 13:05:58 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 13:05:58 INFO  time: compiled scala-httpakka in 0.15s
+2022.03.14 13:07:25 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 13:07:25 INFO  time: compiled scala-httpakka in 0.17s
+2022.03.14 14:57:20 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:23:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:57:20 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:57:20 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value uri
+      uri = "http://markup.su"
+      ^^^
+2022.03.14 14:57:20 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:23:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:57:20 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:57:20 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value uri
+      uri = "http://markup.su"
+      ^^^
+2022.03.14 14:57:20 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:23:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:57:20 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:57:20 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value uri
+      uri = "http://markup.su"
+      ^^^
+2022.03.14 14:57:20 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:23:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:57:20 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:57:20 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value uri
+      uri = "http://markup.su"
+      ^^^
+2022.03.14 14:57:37 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 14:57:37 INFO  time: compiled scala-httpakka in 0.13s
+2022.03.14 14:58:09 ERROR searching for `_empty_/AkkaHttp.source.` failed
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:71)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:16)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:172)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:171)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:256)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:255)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:254)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completionItemResolve$1(MetalsLanguageServer.scala:1596)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completionItemResolve(MetalsLanguageServer.scala:1594)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 14:58:12 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:58:12 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:58:12 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:26:7: stale bloop error: not found: value uri
+      uri = "http://markup.su/api/highlighter",
+      ^^^
+2022.03.14 14:58:12 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:27:7: stale bloop error: not found: value entity
+      entity = HttpEntity( // payload
+      ^^^^^^
+2022.03.14 14:58:12 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:58:12 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:58:12 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:26:7: stale bloop error: not found: value uri
+      uri = "http://markup.su/api/highlighter",
+      ^^^
+2022.03.14 14:58:12 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:27:7: stale bloop error: not found: value entity
+      entity = HttpEntity( // payload
+      ^^^^^^
+2022.03.14 14:58:50 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:58:50 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:58:50 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:26:7: stale bloop error: not found: value uri
+      uri = "http://markup.su/api/highlighter",
+      ^^^
+2022.03.14 14:58:50 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:27:7: stale bloop error: not found: value entity
+      entity = HttpEntity( // payload
+      ^^^^^^
+2022.03.14 14:58:50 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:58:50 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:58:50 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:26:7: stale bloop error: not found: value uri
+      uri = "http://markup.su/api/highlighter",
+      ^^^
+2022.03.14 14:58:50 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:27:7: stale bloop error: not found: value entity
+      entity = HttpEntity( // payload
+      ^^^^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:26:7: stale bloop error: not found: value uri
+      uri = "http://markup.su/api/highlighter",
+      ^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:27:7: stale bloop error: not found: value entity
+      entity = HttpEntity( // payload
+      ^^^^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:26:7: stale bloop error: not found: value uri
+      uri = "http://markup.su/api/highlighter",
+      ^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:27:7: stale bloop error: not found: value entity
+      entity = HttpEntity( // payload
+      ^^^^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:26:7: stale bloop error: not found: value uri
+      uri = "http://markup.su/api/highlighter",
+      ^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:27:7: stale bloop error: not found: value entity
+      entity = HttpEntity( // payload
+      ^^^^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:26:7: stale bloop error: not found: value uri
+      uri = "http://markup.su/api/highlighter",
+      ^^^
+2022.03.14 14:58:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:27:7: stale bloop error: not found: value entity
+      entity = HttpEntity( // payload
+      ^^^^^^
+2022.03.14 14:58:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:58:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:58:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:26:7: stale bloop error: not found: value uri
+      uri = "http://markup.su/api/highlighter",
+      ^^^
+2022.03.14 14:58:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:27:7: stale bloop error: not found: value entity
+      entity = HttpEntity( // payload
+      ^^^^^^
+2022.03.14 14:58:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:58:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:58:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:26:7: stale bloop error: not found: value uri
+      uri = "http://markup.su/api/highlighter",
+      ^^^
+2022.03.14 14:58:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:27:7: stale bloop error: not found: value entity
+      entity = HttpEntity( // payload
+      ^^^^^^
+2022.03.14 14:58:58 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:58:58 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:58:58 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:26:7: stale bloop error: not found: value uri
+      uri = "http://markup.su/api/highlighter",
+      ^^^
+2022.03.14 14:58:58 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:27:7: stale bloop error: not found: value entity
+      entity = HttpEntity( // payload
+      ^^^^^^
+2022.03.14 14:58:58 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:24:19: stale bloop error: class akka.http.javadsl.model.HttpRequest is not a value
+    val request = HttpRequest(
+                  ^^^^^^^^^^^
+2022.03.14 14:58:58 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:25:7: stale bloop error: not found: value method
+      method = HttpMethods.POST,
+      ^^^^^^
+2022.03.14 14:58:58 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:26:7: stale bloop error: not found: value uri
+      uri = "http://markup.su/api/highlighter",
+      ^^^
+2022.03.14 14:58:58 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:27:7: stale bloop error: not found: value entity
+      entity = HttpEntity( // payload
+      ^^^^^^
+2022.03.14 14:58:58 ERROR searching for `_empty_/AkkaHttp.materializer.` failed
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:71)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:16)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:172)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:171)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:256)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:255)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:254)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completionItemResolve$1(MetalsLanguageServer.scala:1596)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completionItemResolve(MetalsLanguageServer.scala:1594)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 14:59:43 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 14:59:43 INFO  time: compiled scala-httpakka in 0.12s
+2022.03.14 15:00:03 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:00:03 INFO  time: compiled scala-httpakka in 74ms
+2022.03.14 15:02:13 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:02:13 INFO  time: compiled scala-httpakka in 75ms
+2022.03.14 15:06:35 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:06:35 INFO  time: compiled scala-httpakka in 0.16s
+2022.03.14 15:06:57 ERROR searching for `_empty_/AkkaHttp.materializer.` failed
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:71)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:16)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:172)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:171)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:256)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:255)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:254)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completionItemResolve$1(MetalsLanguageServer.scala:1596)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completionItemResolve(MetalsLanguageServer.scala:1594)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 15:07:04 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:07:04 INFO  time: compiled scala-httpakka in 0.7s
+2022.03.14 15:09:30 ERROR searching for `_empty_/AkkaHttp.source.` failed
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:71)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:16)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:172)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:171)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:256)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:255)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:254)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completionItemResolve$1(MetalsLanguageServer.scala:1596)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completionItemResolve(MetalsLanguageServer.scala:1594)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 15:09:52 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:09:52 INFO  time: compiled scala-httpakka in 0.69s
+2022.03.14 15:11:59 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:11:59 WARN  Could not load snapshot text for /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala
+2022.03.14 15:11:59 INFO  time: compiled scala-httpakka in 0.65s
+Mar 14, 2022 3:14:17 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+2022.03.14 15:14:20 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:14:20 INFO  time: compiled scala-httpakka in 0.82s
+2022.03.14 15:15:44 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:15:44 INFO  time: compiled scala-httpakka in 0.16s
+2022.03.14 15:16:52 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:16:52 INFO  time: compiled scala-httpakka in 0.13s
+2022.03.14 15:18:08 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:18:08 INFO  time: compiled scala-httpakka in 0.73s
+2022.03.14 15:20:07 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:20:07 INFO  time: compiled scala-httpakka in 0.18s
+2022.03.14 15:20:56 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:20:56 INFO  time: compiled scala-httpakka in 0.2s
+2022.03.14 15:21:13 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:21:13 INFO  time: compiled scala-httpakka in 0.19s
+2022.03.14 15:22:20 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:22:20 INFO  time: compiled scala-httpakka in 0.13s
+something's wrong: no file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala in scala.concurrent.Future[<error>]RangePosition(file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala, 1351, 1351, 1380)
+something's wrong: no file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala in scala.concurrent.Future[<error>]RangePosition(file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala, 1351, 1351, 1441)
+2022.03.14 15:23:29 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:23:29 INFO  time: compiled scala-httpakka in 0.19s
+2022.03.14 15:24:41 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:24:41 INFO  time: compiled scala-httpakka in 0.17s
+2022.03.14 15:25:51 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:25:51 INFO  time: compiled scala-httpakka in 0.15s
+2022.03.14 15:25:58 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:25:58 INFO  time: compiled scala-httpakka in 0.18s
+2022.03.14 15:26:05 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:26:05 INFO  time: compiled scala-httpakka in 93ms
+2022.03.14 15:26:24 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:26:24 INFO  time: compiled scala-httpakka in 0.16s
+2022.03.14 15:26:41 ERROR searching for `_empty_/AkkaHttp.sendRequest().` failed
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:71)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:16)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:172)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:171)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:256)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:255)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:254)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completionItemResolve$1(MetalsLanguageServer.scala:1596)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completionItemResolve(MetalsLanguageServer.scala:1594)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 15:27:04 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:27:04 INFO  time: compiled scala-httpakka in 0.14s
+2022.03.14 15:27:08 ERROR scalafmt: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:50: error: [dialect scala213] ) expected but } found
+    }
+    ^
+2022.03.14 15:27:08 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:27:08 INFO  time: compiled scala-httpakka in 69ms
+2022.03.14 15:27:50 ERROR scalafmt: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:50: error: [dialect scala213] ) expected but } found
+    }
+    ^
+2022.03.14 15:27:50 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:27:50 INFO  time: compiled scala-httpakka in 33ms
+2022.03.14 15:27:58 ERROR scalafmt: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:50: error: [dialect scala213] ) expected but } found
+    }
+    ^
+2022.03.14 15:27:58 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:27:58 INFO  time: compiled scala-httpakka in 32ms
+2022.03.14 15:27:58 ERROR scalafmt: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:50: error: [dialect scala213] ) expected but } found
+    }
+    ^
+2022.03.14 15:27:58 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:27:58 INFO  time: compiled scala-httpakka in 22ms
+2022.03.14 15:27:58 ERROR scalafmt: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:50: error: [dialect scala213] ) expected but } found
+    }
+    ^
+2022.03.14 15:27:58 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:27:58 INFO  time: compiled scala-httpakka in 22ms
+2022.03.14 15:27:58 ERROR scalafmt: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:50: error: [dialect scala213] ) expected but } found
+    }
+    ^
+2022.03.14 15:27:58 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:27:58 INFO  time: compiled scala-httpakka in 30ms
+2022.03.14 15:28:10 ERROR searching for `_empty_/AkkaHttp.sendRequest().` failed
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:71)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:237)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:69)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:192)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 15:28:51 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:28:51 INFO  time: compiled scala-httpakka in 0.15s
+Mar 14, 2022 3:34:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5292
+2022.03.14 15:34:46 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:34:46 INFO  time: compiled scala-httpakka in 0.1s
+2022.03.14 15:38:48 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2.seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:38:48 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2.seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:38:48 ERROR scalafmt: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43: error: Invalid literal number
+                response.entity.toStrict(2.0seconds)
+                                         ^
+2022.03.14 15:38:48 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2.seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:38:48 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:38:48 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2.0seconds)
+                                         ^
+2022.03.14 15:38:48 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2.0seconds)
+                                         ^
+2022.03.14 15:38:48 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:46:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.03.14 15:38:48 INFO  time: compiled scala-httpakka in 50ms
+2022.03.14 15:38:50 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2.0seconds)
+                                         ^
+2022.03.14 15:38:50 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:46:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.03.14 15:38:50 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2.0seconds)
+                                         ^
+2022.03.14 15:38:50 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:46:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.03.14 15:38:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2.0seconds)
+                                         ^
+2022.03.14 15:38:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:46:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.03.14 15:38:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2.0seconds)
+                                         ^
+2022.03.14 15:38:51 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:46:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.03.14 15:38:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2.0seconds)
+                                         ^
+2022.03.14 15:38:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:46:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.03.14 15:38:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2.0seconds)
+                                         ^
+2022.03.14 15:38:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:46:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.03.14 15:38:52 ERROR scalafmt: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43: error: Invalid literal number
+                response.entity.toStrict(2seconds)
+                                         ^
+2022.03.14 15:38:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2.0seconds)
+                                         ^
+2022.03.14 15:38:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:46:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.03.14 15:38:52 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:38:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2seconds)
+                                         ^
+2022.03.14 15:38:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2seconds)
+                                         ^
+2022.03.14 15:38:52 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:46:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.03.14 15:38:52 INFO  time: compiled scala-httpakka in 55ms
+2022.03.14 15:38:54 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2seconds)
+                                         ^
+2022.03.14 15:38:54 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:46:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.03.14 15:38:54 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: invalid literal number
+                response.entity.toStrict(2seconds)
+                                         ^
+2022.03.14 15:38:54 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:46:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.03.14 15:38:54 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:38:54 INFO  time: compiled scala-httpakka in 0.18s
+2022.03.14 15:38:55 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2 seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:38:55 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: postfix operator seconds needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+                response.entity.toStrict(2 seconds)
+                                         ^^^^^^^^^
+2022.03.14 15:38:55 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2 seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:38:55 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: postfix operator seconds needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+                response.entity.toStrict(2 seconds)
+                                         ^^^^^^^^^
+2022.03.14 15:38:57 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2 seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:38:57 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: postfix operator seconds needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+                response.entity.toStrict(2 seconds)
+                                         ^^^^^^^^^
+2022.03.14 15:38:57 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2 seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:38:57 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: postfix operator seconds needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+                response.entity.toStrict(2 seconds)
+                                         ^^^^^^^^^
+2022.03.14 15:38:58 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2 seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:38:58 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: postfix operator seconds needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+                response.entity.toStrict(2 seconds)
+                                         ^^^^^^^^^
+2022.03.14 15:38:58 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2 seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:38:58 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: postfix operator seconds needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+                response.entity.toStrict(2 seconds)
+                                         ^^^^^^^^^
+2022.03.14 15:38:59 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2 seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:38:59 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: postfix operator seconds needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+                response.entity.toStrict(2 seconds)
+                                         ^^^^^^^^^
+2022.03.14 15:38:59 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2 seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:38:59 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: postfix operator seconds needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+                response.entity.toStrict(2 seconds)
+                                         ^^^^^^^^^
+2022.03.14 15:38:59 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2 seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:38:59 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: postfix operator seconds needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+                response.entity.toStrict(2 seconds)
+                                         ^^^^^^^^^
+2022.03.14 15:39:00 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2 seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:39:00 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:42: stale bloop error: postfix operator seconds needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+                response.entity.toStrict(2 seconds)
+                                         ^^^^^^^^^
+2022.03.14 15:39:01 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:39:01 INFO  time: compiled scala-httpakka in 0.15s
+2022.03.14 15:39:55 ERROR searching for `_empty_/AkkaHttp.sendRequest().` failed
+java.nio.file.NoSuchFileException: /home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/AkkaHttp.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:521)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:366)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:71)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:39)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:38)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:162)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:237)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:103)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:192)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.03.14 15:42:37 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2.seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:42:37 INFO  file:///home/sami/Documents/dev/scala-HttpAkka/scala-httpakka/src/main/scala/Main.scala:43:17: stale bloop error: could not find implicit value for parameter fm: akka.stream.Materializer
+                response.entity.toStrict(2.seconds)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.03.14 15:42:38 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:42:38 INFO  time: compiled scala-httpakka in 0.1s
+2022.03.14 15:43:55 INFO  compiling scala-httpakka (1 scala source)
+2022.03.14 15:43:55 INFO  time: compiled scala-httpakka in 97ms
+2022.03.14 15:43:57 INFO  shutting down Metals
+2022.03.14 15:43:57 INFO  Shut down connection with build server.
+2022.03.14 15:43:57 INFO  Shut down connection with build server.
