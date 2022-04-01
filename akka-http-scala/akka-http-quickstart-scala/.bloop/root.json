@@ -2,14 +2,14 @@
     "version": "1.4.0",
     "project": {
         "name": "root",
-        "directory": "/home/sami/Documents/dev/scala-essentials/akka-http-quickstart-scala",
-        "workspaceDir": "/home/sami/Documents/dev/scala-essentials/akka-http-quickstart-scala",
+        "directory": "/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala",
+        "workspaceDir": "/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala",
         "sources": [
-            "/home/sami/Documents/dev/scala-essentials/akka-http-quickstart-scala/src/main/scala",
-            "/home/sami/Documents/dev/scala-essentials/akka-http-quickstart-scala/src/main/scala-2.13",
-            "/home/sami/Documents/dev/scala-essentials/akka-http-quickstart-scala/src/main/scala-2",
-            "/home/sami/Documents/dev/scala-essentials/akka-http-quickstart-scala/src/main/java",
-            "/home/sami/Documents/dev/scala-essentials/akka-http-quickstart-scala/target/scala-2.13/src_managed/main"
+            "/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/src/main/scala",
+            "/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/src/main/scala-2.13",
+            "/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/src/main/scala-2",
+            "/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/src/main/java",
+            "/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/target/scala-2.13/src_managed/main"
         ],
         "dependencies": [
             
@@ -35,11 +35,11 @@
             "/home/sami/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.0/scala-java8-compat_2.13-1.0.0.jar",
             "/home/sami/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
         ],
-        "out": "/home/sami/Documents/dev/scala-essentials/akka-http-quickstart-scala/.bloop/root",
-        "classesDir": "/home/sami/Documents/dev/scala-essentials/akka-http-quickstart-scala/.bloop/root/scala-2.13/classes",
+        "out": "/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/.bloop/root",
+        "classesDir": "/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/.bloop/root/scala-2.13/classes",
         "resources": [
-            "/home/sami/Documents/dev/scala-essentials/akka-http-quickstart-scala/src/main/resources",
-            "/home/sami/Documents/dev/scala-essentials/akka-http-quickstart-scala/target/scala-2.13/resource_managed/main"
+            "/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/src/main/resources",
+            "/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/target/scala-2.13/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -118,7 +118,7 @@
             "config": {
                 "home": "/usr/lib/jvm/java-11-openjdk-amd64",
                 "options": [
-                    "-Duser.dir=/home/sami/Documents/dev/scala-essentials/akka-http-quickstart-scala"
+                    "-Duser.dir=/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala"
                 ]
             },
             "mainClass": [

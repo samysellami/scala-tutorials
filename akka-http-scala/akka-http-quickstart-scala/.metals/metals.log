@@ -153,3 +153,91 @@ WARNING: Unmatched cancel notification for request id 5
 2022.03.22 10:28:10 INFO  Shut down connection with build server.
 2022.03.22 10:28:10 INFO  Shut down connection with build server.
 2022.03.22 10:28:10 INFO  Shut down connection with build server.
+2022.03.31 15:05:19 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/.metals/lsp.trace.json or /home/sami/.cache/metals/lsp.trace.json
+2022.03.31 15:05:20 INFO  logging to file /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/.metals/metals.log
+2022.03.31 15:05:20 INFO  Started: Metals version 0.11.2 in workspace '/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala' for client Visual Studio Code 1.66.0.
+2022.03.31 15:05:20 INFO  Parse release: 11.0.14.1
+2022.03.31 15:05:21 INFO  time: initialize in 1.49s
+2022.03.31 15:05:22 INFO  Attempting to connect to the build server...
+2022.03.31 15:05:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.31 15:05:21 INFO  Attempting to connect to the build server...
+2022.03.31 15:05:21 INFO  Attempting to connect to the build server...
+2022.03.31 15:05:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/project/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.31 15:05:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/project/project/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.31 15:05:22 INFO  time: Connected to build server in 0.34s
+2022.03.31 15:05:22 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.31 15:05:24 WARN  Could not find java sources in /lib/jvm/src.zip, /lib/jvm/lib/src.zip, /lib/jvm/java-11-openjdk-amd64/src.zip, /lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.03.31 15:05:24 INFO  time: indexed workspace in 2.17s
+2022.03.31 15:05:25 INFO  running '/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7679513694492806176/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.03.31 15:05:26 INFO  [info] welcome to sbt 1.6.2 (Ubuntu Java 11.0.14.1)
+2022.03.31 15:05:28 INFO  [info] loading global plugins from /home/sami/.sbt/1.0/plugins
+2022.03.31 15:05:29 INFO  [info] loading settings for project akka-http-quickstart-scala-build-build-build from metals.sbt ...
+2022.03.31 15:05:29 INFO  [info] loading project definition from /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/project/project/project
+2022.03.31 15:05:29 INFO  [info] loading settings for project akka-http-quickstart-scala-build-build from metals.sbt ...
+2022.03.31 15:05:29 INFO  [info] loading project definition from /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/project/project
+2022.03.31 15:05:32 INFO  [success] Generated .bloop/akka-http-quickstart-scala-build-build.json
+2022.03.31 15:05:32 INFO  [success] Total time: 2 s, completed Mar 31, 2022, 3:05:32 PM
+2022.03.31 15:05:32 INFO  [info] loading settings for project akka-http-quickstart-scala-build from metals.sbt,plugins.sbt ...
+2022.03.31 15:05:32 INFO  [info] loading project definition from /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/project
+2022.03.31 15:05:32 WARN  no build target for: /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/src/main/scala/com/example/QuickstartApp.scala
+2022.03.31 15:05:33 INFO  [success] Generated .bloop/akka-http-quickstart-scala-build.json
+2022.03.31 15:05:33 INFO  [success] Total time: 1 s, completed Mar 31, 2022, 3:05:33 PM
+2022.03.31 15:05:33 INFO  [info] loading settings for project root from build.sbt ...
+2022.03.31 15:05:33 INFO  [info] set current project to akka-http-quickstart-scala (in build file:/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/)
+2022.03.31 15:05:33 INFO  [success] Generated .bloop/root-test.json
+2022.03.31 15:05:33 INFO  [success] Generated .bloop/root.json
+2022.03.31 15:05:33 INFO  [success] Total time: 0 s, completed Mar 31, 2022, 3:05:33 PM
+2022.03.31 15:05:34 INFO  time: ran 'sbt bloopInstall' in 8.38s
+2022.03.31 15:05:34 INFO  Disconnecting from Bloop session...
+2022.03.31 15:05:34 INFO  Shut down connection with build server.
+2022.03.31 15:05:34 INFO  Shut down connection with build server.
+2022.03.31 15:05:34 INFO  Shut down connection with build server.
+2022.03.31 15:05:34 INFO  Attempting to connect to the build server...
+2022.03.31 15:05:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.31 15:05:34 INFO  Attempting to connect to the build server...
+2022.03.31 15:05:34 INFO  Attempting to connect to the build server...
+2022.03.31 15:05:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/project/project/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.31 15:05:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/project/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.03.31 15:05:34 INFO  time: Connected to build server in 0.16s
+2022.03.31 15:05:34 INFO  Connected to Build server: Bloop v1.4.13
+2022.03.31 15:05:35 WARN  Could not find java sources in /lib/jvm/src.zip, /lib/jvm/lib/src.zip, /lib/jvm/java-11-openjdk-amd64/src.zip, /lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.03.31 15:05:35 INFO  time: indexed workspace in 1.12s
+2022.03.31 15:05:35 INFO  compiling root (4 scala sources)
+2022.03.31 15:05:39 INFO  compiling root-test (1 scala source)
+2022.03.31 15:05:39 INFO  time: compiled root in 4.18s
+2022.03.31 15:05:39 INFO  time: compiled root-test in 0.89s
+Mar 31, 2022 6:24:28 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.03.31 19:25:51 INFO  time: code lens generation in 1.24s
+2022.03.31 19:43:14 INFO  shutting down Metals
+2022.03.31 19:43:14 INFO  Shut down connection with build server.
+2022.03.31 19:43:14 INFO  Shut down connection with build server.
+2022.03.31 19:43:14 INFO  Shut down connection with build server.
+2022.04.01 10:51:16 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/.metals/lsp.trace.json or /home/sami/.cache/metals/lsp.trace.json
+2022.04.01 10:51:17 INFO  logging to file /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/.metals/metals.log
+2022.04.01 10:51:17 INFO  Started: Metals version 0.11.2 in workspace '/home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala' for client Visual Studio Code 1.66.0.
+2022.04.01 10:51:17 INFO  Parse release: 11.0.14.1
+2022.04.01 10:51:18 INFO  time: initialize in 1.68s
+2022.04.01 10:51:19 INFO  Attempting to connect to the build server...
+2022.04.01 10:51:18 INFO  skipping build import with status 'Installed'
+2022.04.01 10:51:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.04.01 10:51:21 INFO  Attempting to connect to the build server...
+2022.04.01 10:51:21 INFO  Attempting to connect to the build server...
+2022.04.01 10:51:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/project/project/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.04.01 10:51:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/project/.metals/bsp.trace.json or /home/sami/.cache/metals/bsp.trace.json
+2022.04.01 10:51:22 INFO  time: Connected to build server in 2.76s
+2022.04.01 10:51:22 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.01 10:51:22 INFO  no build target found for /home/sami/Documents/dev/scala-tutorials/akka-http-scala/akka-http-quickstart-scala/src/main/scala/com/example/UserRoutes.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.01 10:51:22 INFO  time: code lens generation in 2s
+2022.04.01 10:51:24 WARN  Could not find java sources in /lib/jvm/src.zip, /lib/jvm/lib/src.zip, /lib/jvm/java-11-openjdk-amd64/src.zip, /lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.04.01 10:51:24 INFO  time: indexed workspace in 1.59s
+Apr 01, 2022 11:17:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 149
+Apr 01, 2022 11:27:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 01, 2022 11:27:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 01, 2022 11:56:25 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 01, 2022 12:19:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1602
