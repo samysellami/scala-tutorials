@@ -62,8 +62,6 @@ jitwatch.out
 /target-restarr/
 
 # metals
-.metals
+.metals/
 .bloop
 project/**/metals.sbt
-
-.bsp
